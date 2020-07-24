@@ -15,13 +15,17 @@
   overflow: hidden;
 }
 
-.page__body {
-  margin: 0;
-  padding: 0;
-  width: 320px;
-  font-family: Arial, Helvetica, sans-serif;
+.page {
+  height: 100%;
+  font-family: "Arial", "Helvetica", sans-serif;
   font-size: 14px;
   line-height: 18px;
   font-weight: normal;
-  color: global-variable-exists($basic_green: );
+}
+
+.page__body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  color: $basic_grey;
 }
