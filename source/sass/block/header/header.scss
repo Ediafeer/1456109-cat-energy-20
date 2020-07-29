@@ -1,12 +1,12 @@
 .page-header {
   display: flex;
   flex-direction: column;
-  padding-left: 20px;
   padding-top: 12px;
 }
 
 .page-header__logo {
   height: 38px;
+  padding-left: 20px;
 
   @media (min-width: $tablet-width) {
     height: 52px;
