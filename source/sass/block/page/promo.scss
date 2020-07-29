@@ -1,5 +1,11 @@
 .promo {
   position: relative;
+  display: block;
+  width: 320px;
+  height: 100%;
+}
+
+.promo__img {
   width: 320px;
   height: 305px;
   background-image: url("/img/index-background-mobile@1x.jpg");
@@ -37,7 +43,7 @@
 
 .promo__button {
   display: block;
-  margin-top: 302px;
+  margin-top: 135px;
   width: 280px;
   padding-top: 13px;
   padding-bottom: 13px;
