@@ -1,0 +1,25 @@
+.page-footer {
+  background-color: $basic_gray;
+  width: 320px;
+}
+
+.footer-logo {
+  margin-top: 39px;
+  margin-left: 96px;
+}
+
+.page-footer__developed {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 43px;
+  padding-bottom: 22px;
+  padding-left: 20px;
+  width: 281px;
+}
+
+.page-footer__developed a {
+  line-height: 18px;
+  font-size: 16px;
+  color: $special_dark_gray;
+}

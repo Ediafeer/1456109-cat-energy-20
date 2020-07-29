@@ -2,6 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   width: 320px;
+  height: auto;
   background-color: $color-title-text;
 }
 
@@ -25,6 +26,7 @@
 
 .cooperation::before {
   content: url("/img/bg-map-mobile@1x.png");
+  height: 400px;
   order: 3;
   margin-top: 22px;
 }
