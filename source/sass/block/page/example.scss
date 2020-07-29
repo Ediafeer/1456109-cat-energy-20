@@ -1,0 +1,74 @@
+.example {
+  background-color: $special_background_gray;
+  width: 320px;
+  padding-right: 21px;
+  padding-left: 20px;
+}
+
+.example__header {
+  margin: 0;
+  padding-top: 27px;
+  font-family: $title-font;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 40px;
+}
+
+.example__text {
+  margin: 0;
+  padding-top: 33px;
+  width: 279px;
+}
+
+.example__indicators {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.example__property {
+  width: 124px;
+  height: 56px;
+  border: 1px solid $special_gray;
+  border-radius: 3px;
+  font-family: $title-font;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.example__decoding-indicator {
+  display: block;
+  width: 77px;
+  text-align: center;
+  font-family: $base-font;
+  font-size: 12px;
+  line-height: 12px;
+  margin-left: 22px;
+  margin-top: 19px;
+  background-color: $special_background_gray;
+}
+
+.example__estimate {
+  margin: 0;
+  padding-top: 26px;
+  padding-left: 46px;
+  font-family: $title-font;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.example__slider {
+  width: auto;
+  height: auto;
+}
+
+.example__slider-past {
+  background-image: url("/img/before-mobile@1x.png");
+  height: 232px;
+}
+
+.example__switch {
+  margin-top: 35px;
+  margin-bottom: 39px;
+}

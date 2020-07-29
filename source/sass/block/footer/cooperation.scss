@@ -1,0 +1,30 @@
+.cooperation {
+  display: flex;
+  flex-wrap: wrap;
+  width: 320px;
+  background-color: $color-title-text;
+}
+
+.cooperation__header {
+  margin: 0;
+  width: 140px;
+  padding-top: 28px;
+  margin-left: 20px;
+  font-family: $title-font;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.cooperation__address {
+  width: 140px;
+  padding-top: 28px;
+  font-style: normal;
+}
+
+.cooperation::before {
+  content: url("/img/bg-map-mobile@1x.png");
+  order: 3;
+  margin-top: 22px;
+}
