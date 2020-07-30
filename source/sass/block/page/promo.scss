@@ -8,7 +8,7 @@
 .promo__img {
   width: 320px;
   height: 305px;
-  background-image: url("/img/index-background-mobile@1x.jpg");
+  background-image: url("../img/index-background-mobile@1x.jpg");
 }
 
 .promo__title {
@@ -23,13 +23,13 @@
 }
 
 .promo::before {
-  content: url("");
+  content: "";
   position: absolute;
   top: 167px;
   left: 20px;
   width: 280px;
   height: 270px;
-  background-image: url("/img/index-can-mobile@1x.png");
+  background-image: url("../img/index-can-mobile@1x.png");
 }
 
 .promo__text {

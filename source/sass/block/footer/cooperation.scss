@@ -10,7 +10,6 @@
   margin: 0;
   width: 140px;
   padding-top: 28px;
-  margin-left: 20px;
   font-family: $title-font;
   font-size: 16px;
   font-weight: normal;
@@ -25,7 +24,7 @@
 }
 
 .cooperation::before {
-  content: url("/img/bg-map-mobile@1x.png");
+  content: url("../img/bg-map-mobile@1x.png");
   height: 400px;
   order: 3;
   margin-top: 22px;

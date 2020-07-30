@@ -1,9 +1,8 @@
 .page-footer {
-  background-color: $basic_gray;
-  width: 320px;
+  min-width: 320px;
 }
 
-.footer-logo {
+.social-logo {
   margin-top: 39px;
   margin-left: 96px;
 }
@@ -14,8 +13,6 @@
   justify-content: space-between;
   padding-top: 43px;
   padding-bottom: 22px;
-  padding-left: 20px;
-  width: 281px;
 }
 
 .page-footer__developed a {
