@@ -15,24 +15,22 @@
   overflow: hidden;
 }
 
+
 .page-header,
-.page-main,
-.page-footer {
+.promo__img {
   padding: 0 15px;
 }
 
 @media (min-width: 768px) {
   .page-header,
-  .page-main,
-  .page-footer {
-    padding: 0 calc(50vw - 354px);
+  .promo__img {
+    padding: 0 calc(50vw - 160px);
   }
 }
 
 @media (min-width: 1200px) {
   .page-header,
-  .page-main,
-  .page-footer {
-    padding: 0 calc(50vw - 340px);
+  .promo__img {
+    padding: 0 calc(50vw - 160px);
   }
 }

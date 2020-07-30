@@ -1,0 +1,28 @@
+.catalog__header {
+  margin: 0;
+  padding: 0;
+  padding-top: 29px;
+  padding-left: 20px;
+  padding-bottom: 49px;
+  font-family: $title-font;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 36px;
+}
+
+.card__button {
+  display: block;
+  width: 280px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  margin-left: 20px;
+}
+
+.cards__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.card__item {
+  display: flex;
+}
