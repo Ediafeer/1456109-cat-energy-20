@@ -10,19 +10,94 @@
   line-height: 36px;
 }
 
-.card__button {
-  display: block;
-  width: 280px;
-  padding-top: 13px;
-  padding-bottom: 13px;
-  margin-left: 20px;
-}
-
 .cards__list {
   display: flex;
   flex-direction: column;
+  min-width: 320px;
 }
 
 .card__item {
   display: flex;
+  flex-wrap: wrap;
+  padding-top: 11px;
+  padding-bottom: 14px;
+}
+
+.card__title {
+  display: block;
+  width: 77px;
+  padding-bottom: 18px;
+  font-family: $title-font;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: $special_black_gray;
+}
+
+.specifications {
+  display: flex;
+  flex-direction: column;
+  width: 142px;
+}
+
+.specifications__item {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 13px;
+  font-size: 12px;
+  line-height: 16px;
+  color: $special_black_gray;
+}
+
+.card__button {
+  display: block;
+  width: 280px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-left: 20px;
+}
+
+.card__show {
+  position: relative;
+  display: block;
+  margin: 0;
+  padding-top: 90px;
+  width: 320px;
+  font-family: $title-font;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.card__show::before {
+  content: url("../img/icon-plus-mobile.svg");
+  position: absolute;
+  display: block;
+  top: 23px;
+  left: 145px;
+  width: 30px;
+  height: 30px;
+}
+
+.card__show--text {
+  margin: 0;
+  padding-top: 8px;
+  padding-bottom: 21px;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  width: 320px;
+  color: $special_black_gray;
+}
+
+.card__button--show {
+  border: 0;
+  background-color: $basic_gray;
+  display: block;
+  width: 280px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-left: 20px;
+  color: $special_black_gray;
 }

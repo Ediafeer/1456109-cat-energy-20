@@ -17,20 +17,23 @@
 
 
 .page-header,
-.promo__img {
+.page-main,
+.page-footer {
   padding: 0 15px;
 }
 
 @media (min-width: 768px) {
   .page-header,
-  .promo__img {
+  .page-main,
+  .page-footer {
     padding: 0 calc(50vw - 160px);
   }
 }
 
 @media (min-width: 1200px) {
   .page-header,
-  .promo__img {
+  .page-main,
+  .page-footer {
     padding: 0 calc(50vw - 160px);
   }
 }
