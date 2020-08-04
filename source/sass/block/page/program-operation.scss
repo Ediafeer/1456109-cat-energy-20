@@ -15,7 +15,7 @@
 .program-operation__list {
   display: flex;
   flex-direction: column;
-  width: 279px;
+  width: 100%;
   margin-left: 20px;
   margin-top: 38px;
   margin-bottom: 22px;
@@ -24,7 +24,7 @@
 .program-operation__item {
   display: flex;
   flex-wrap: wrap;
-  width: 279px;
+  width: 100%;
   margin-bottom: 20px;
 }
 

@@ -13,7 +13,7 @@
 .cards__list {
   display: flex;
   flex-direction: column;
-  min-width: 320px;
+  width: 100%;
 }
 
 .card__item {
@@ -62,7 +62,7 @@
   display: block;
   margin: 0;
   padding-top: 90px;
-  width: 320px;
+  width: 100%;
   font-family: $title-font;
   font-size: 16px;
   line-height: 20px;
@@ -87,7 +87,7 @@
   font-size: 12px;
   line-height: 16px;
   text-align: center;
-  width: 320px;
+  width: 100%;
   color: $special_black_gray;
 }
 
