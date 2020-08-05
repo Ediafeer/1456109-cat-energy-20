@@ -1,11 +1,8 @@
 .promo {
   position: relative;
   display: block;
-  width: 100%;
-  height: 100%;
-  margin-left: -15px;
-  margin-right: -15px;
-  padding: 0 15px;
+  margin-left: -20px;
+  margin-right: -20px;
 }
 
 .promo__img {
@@ -50,6 +47,7 @@
 .promo__button {
   display: block;
   margin-top: 135px;
+  margin-left: 20px;
   width: 280px;
   padding-top: 13px;
   padding-bottom: 13px;

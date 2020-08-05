@@ -1,9 +1,10 @@
 .cooperation {
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
   height: 100%;
   background-color: $color-title-text;
+  margin-left: -15px;
+  margin-right: -15px;
 }
 
 .cooperation__header {
@@ -25,9 +26,10 @@
 
 .cooperation::before {
   content: "";
-  height: 400px;
   width: 100%;
+  height: 400px;
   background-image: url("../img/bg-map-mobile@1x.png");
+  background-repeat: no-repeat;
   order: 3;
   margin-top: 22px;
 }
