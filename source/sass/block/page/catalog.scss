@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   padding-top: 29px;
-  padding-left: 20px;
   padding-bottom: 49px;
   font-family: $title-font;
   font-weight: normal;
@@ -51,10 +50,9 @@
 
 .card__button {
   display: block;
-  width: 280px;
+  width: 100%;
   padding-top: 12px;
   padding-bottom: 12px;
-  margin-left: 20px;
 }
 
 .card__show {
@@ -95,9 +93,8 @@
   border: 0;
   background-color: $basic_gray;
   display: block;
-  width: 280px;
+  width: 100%;
   padding-top: 12px;
   padding-bottom: 12px;
-  margin-left: 20px;
   color: $special_black_gray;
 }

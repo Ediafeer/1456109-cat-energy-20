@@ -1,7 +1,6 @@
 .additional-goods {
   margin: 0;
   padding-top: 28px;
-  padding-left: 19px;
   padding-bottom: 48px;
   font-family: $title-font;
   font-weight: normal;
@@ -32,7 +31,6 @@
 
 .additional-goods__specifications {
   margin: 0;
-  margin-left: 20px;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -43,7 +41,6 @@
   width: 100%;
   padding-top: 12px;
   padding-bottom: 12px;
-  margin-left: 20px;
 }
 
 .stock {
@@ -51,7 +48,6 @@
   background-image: url("../img/gift-photo-mobile@1x.jpg");
   width: 100%;
   height: 289px;
-  margin-left: 20px;
   margin-top: 57px;
   margin-bottom: 35px;
 }
