@@ -1,0 +1,39 @@
+.program-operation {
+  display: flex;
+  flex-direction: column;
+  margin-top: 7px;
+}
+
+.program-operation__header {
+  margin: 0;
+  font-family: $title-font;
+  font-size: 36px;
+  line-height: 40px;
+  padding-left: 20px;
+}
+
+.program-operation__list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 38px;
+  margin-bottom: 22px;
+}
+
+.program-operation__item {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.program-operation__icon {
+  display: block;
+  width: 60px;
+  height: 60px;
+  background-color: $basic_green;
+}
+
+.program-opration__text {
+  width: 176px;
+  margin-left: 20px;
+}

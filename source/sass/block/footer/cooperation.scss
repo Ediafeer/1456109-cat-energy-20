@@ -1,0 +1,35 @@
+.cooperation {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  background-color: $color-title-text;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.cooperation__header {
+  margin: 0;
+  width: 140px;
+  padding-top: 28px;
+  font-family: $title-font;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.cooperation__address {
+  width: 140px;
+  padding-top: 28px;
+  font-style: normal;
+}
+
+.cooperation::before {
+  content: "";
+  width: 100%;
+  height: 400px;
+  background-image: url("../img/bg-map-mobile@1x.png");
+  background-repeat: no-repeat;
+  order: 3;
+  margin-top: 22px;
+}
