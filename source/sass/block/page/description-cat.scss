@@ -1,0 +1,18 @@
+.description-cat {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: $title-font;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: $special_dark_gray;
+}
+
+.description-cat__name-input,
+.description-cat__weight-input,
+.description-cat__age-input {
+  height: 45px;
+  margin-bottom: 14px;
+}
