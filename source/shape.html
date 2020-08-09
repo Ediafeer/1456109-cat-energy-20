@@ -36,7 +36,7 @@
       <p class="programs-header__title">Заполните анкету, и мы подберем программу питания для вашего кота</p>
 
       <form class="selection-form" action="https://echo.htmlacademy.ru" method="GET">
-        <fieldset class="description-cat">
+        <fieldset class="description-cat border-fieldset">
           <legend class="visually-hidden">Описание кота</legend>
           <label class="description-cat__name">Имя*
             <input class="description-cat__name-input" type="text" name="name" placeholder="Барсик">
@@ -48,7 +48,7 @@
             <input class="description-cat__age-input" type="number" name="age" placeholder="7">
           </label>
         </fieldset>
-        <fieldset class="program-selection">
+        <fieldset class="program-selection border-fieldset">
           <legend class="visually-hidden">Выбор программы</legend>
           <label class="program-selection__losing">
             <input class="program-selection__losing-input" type="radio" name="program-selection" value="losing-weight" checked>
@@ -60,7 +60,7 @@
             <input class="program-selection__advice-input" type="radio" name="program-selection" value="need-advice">
             Не знаю (Нужен ваш совет)</label>
         </fieldset>
-        <fieldset class="contact-details">
+        <fieldset class="contact-details border-fieldset">
           <legend class="contact-details__title">Контактные данные (владельца кота)</legend>
           <label class="contact-details__email">e-mail:*
             <input class="contact-details__email-input" type="email" name="email" placeholder="kuklachev@gmail.com">
@@ -72,7 +72,7 @@
             <textarea class="contact-details__comment-input" placeholder="Расскажите обо всех повадках кота"></textarea>
           </label>
         </fieldset>
-        <fieldset class="additional-option">
+        <fieldset class="additional-option border-fieldset">
           <legend class="additional-option__title">Дополнительно</legend>
           <label class="additional-option__name">
             <input class="additional-option__name-input" type="checkbox" name="sweetener" checked>
@@ -91,7 +91,7 @@
             Витамины
           </label>
         </fieldset>
-        <button class="button" type="submit">Отправить заявку</button>
+        <button class="button button-form" type="submit">Отправить заявку</button>
         <p class="necessarily">* — Обязательные поля</p>
       </form>
 
