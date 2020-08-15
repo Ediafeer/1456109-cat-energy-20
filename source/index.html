@@ -11,9 +11,13 @@
 <body class="page__body">
   <header class="page-header">
     <a class="page-header__logo">
-      <img src="img/logo-mobile.svg" width="191" height="38" alt="Кэт Энерджи">
+      <picture>
+        <source media="(min-width: 1200px)" srcset="img/logo-desktop.svg">
+        <source media="(min-width: 768px)" srcset="img/logo-tablet.svg">
+        <img src="img/logo-mobile.svg" width="191" height="38" alt="Кэт Энерджи">
+      </picture>
     </a>
-    <nav class="main-nav">
+    <nav class="main-nav main-nav--opened main-nav--nojs">
       <button class="main-nav__toggle" type="button">
         <span class="visually-hidden">Открыть меню</span>
       </button>
@@ -146,6 +150,9 @@
       </div>
     </section>
   </footer>
+
+  <script src="js/nav.js"></script>
+
 </body>
 
 </html>
